@@ -5,7 +5,7 @@ public class DirectorLazySingleton {
 
     private static DirectorLazySingleton directorLazySingleton;
 
-    public DirectorLazySingleton() {
+    private DirectorLazySingleton() {
     }
 
     public static DirectorLazySingleton getInstance(){

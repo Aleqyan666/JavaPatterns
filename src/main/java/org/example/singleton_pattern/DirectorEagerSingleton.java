@@ -4,7 +4,7 @@ public class DirectorEagerSingleton {
 
     private static final DirectorEagerSingleton directorEagerSingleton = new DirectorEagerSingleton();
 
-    public DirectorEagerSingleton() {
+    private DirectorEagerSingleton() {
     }
 
     public static DirectorEagerSingleton getInstance(){
