@@ -1,5 +1,8 @@
 package org.example;
 
+import org.example.singleton_pattern.DirectorEagerSingleton;
+import org.example.singleton_pattern.DirectorLazySingleton;
+
 public class Main {
     public static void main(String[] args) {
 

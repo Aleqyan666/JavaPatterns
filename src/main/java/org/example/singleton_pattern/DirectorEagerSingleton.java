@@ -1,8 +1,8 @@
-package org.example;
+package org.example.singleton_pattern;
 
 public class DirectorEagerSingleton {
 
-    private static DirectorEagerSingleton directorEagerSingleton = new DirectorEagerSingleton();
+    private static final DirectorEagerSingleton directorEagerSingleton = new DirectorEagerSingleton();
 
     public DirectorEagerSingleton() {
     }
