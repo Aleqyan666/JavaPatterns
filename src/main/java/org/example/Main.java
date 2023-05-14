@@ -13,5 +13,8 @@ public class Main {
 
         System.out.println(directorLazySingleton1 == directorLazySingleton2);
         System.out.println(directorEagerSingleton1 == directorEagerSingleton2);
+
+        Integer f1 = 8;
+        Integer f2 = 6;
     }
 }
